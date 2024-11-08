@@ -110404,7 +110404,7 @@ else s.cx=r},
 $S:0}
 A.aGX.prototype={
 $1(a){var s=this.a
-if(s.cx==null&&s.ax.gl(0))return"Please select an entrance"
+if(s.cx==null&&s.ax.gl(0))return"Please select an entrance fee"
 return null},
 $S:52}
 A.aGW.prototype={
@@ -113987,14 +113987,14 @@ A.aC9.prototype={
 $0(){var s,r,q,p,o,n,m=null,l=this.a,k=l.d,j=0.75*k
 k=0.5*k
 s=l.cx
-r=s.gl(0)?B.r:B.i
+r=s.gl(0)?B.i:B.r
 q=l.d
 p=A.C(0.4*q)
 o=A.b4(B.r,1)
 n=$.bco
-q=A.bB(n,s.gl(0)?B.i:m,q,q)
+q=A.bB(n,s.gl(0)?m:B.i,q,q)
 n=A.k(m,m,0.3*l.d)
-s=s.gl(0)?B.i:B.a3
+s=s.gl(0)?B.a3:B.i
 return A.J(m,A.X(A.a([q,n,A.Q("Send",s,m,0.7*l.d,B.v,!1,m,m)],t.p),B.k,B.f,B.E),B.h,m,m,new A.L(r,m,o,p,m,m,m,B.o),m,m,m,m,new A.j(j,k,j,k),m,m,m)},
 $S:96}
 A.aCm.prototype={
@@ -114234,8 +114234,8 @@ A.aCg.prototype={
 $0(){this.a.arm()},
 $S:1}
 A.aCP.prototype={
-$1(a0){var s=null,r=A.aK(a0,s,t.w).w.a.a/100,q=A.C(14),p=1.5*r,o=A.C(p),n=this.a,m=t.p,l=A.X(A.a([A.Q("Cancel Booking",B.j,s,1.1*r,B.aI,!1,s,s),A.bi(!1,s,!0,A.f2(B.rF,B.ap,r),s,!0,s,s,B.m,B.m,s,s,s,s,s,s,new A.aCM(a0),s,B.m,s,s)],m),B.k,B.Z,B.e),k=0.8*r,j=A.Q("you sure you want to cancel this booking?",B.a3,s,r,s,!1,s,s),i=1.2*r,h=A.Q("This message will be sent to the host on your behalf when cancelling the booking.",B.a3,s,r,s,!1,2,s),g=A.Q("Leave a message to explain why",B.a3,s,k,s,!1,s,s),f=0.5*r,e=A.k(s,f,s),d=0.7*r,c=A.aO(s,s,B.j,s,s,s,s,s,s,s,s,d,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),b=0.6*r,a=0.9*r
-return A.CJ(B.i,A.J(s,A.hS(s,A.ae(A.a([l,new A.al(new A.j(0,k,0,k),new A.ei(s,s,s,s,B.a_,s),s),j,new A.al(new A.j(0,i,0,i),h,s),g,e,A.ic(B.iF,B.m,0.45*r,new A.j(f,k,f,k),n.y,s,A.aO(s,s,B.a3,s,s,s,s,s,s,s,s,d,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),"Type a reason for cancelling",s,!0,!1,5,s,s,s,s,s,s,s,c,s,r),A.k(s,i,s),A.X(A.a([A.fB(0.4*r,B.ap,new A.j(p,b,p,b),"Yes, Cancel Booking",a,B.v,s,s,new A.aCN(n),B.i),A.bi(!1,s,!0,A.Q("No, Hold",B.j,s,a,B.v,!1,s,s),s,!0,s,s,B.m,B.m,s,s,s,s,s,s,new A.aCO(),s,B.m,s,s)],m),B.k,B.Z,B.e)],m),B.x,B.f,B.E),n.CW),B.h,s,s,new A.L(B.i,s,s,o,s,s,s,B.o),s,s,s,s,new A.j(p,p,p,p),s,s,35*r),B.h,s,B.ak,s,new A.dl(q,B.B),s)},
+$1(a0){var s=null,r=A.aK(a0,s,t.w).w.a.a/100,q=A.C(14),p=1.5*r,o=A.C(p),n=this.a,m=t.p,l=A.X(A.a([A.Q("Cancel Booking",B.j,s,1.1*r,B.aI,!1,s,s),A.bi(!1,s,!0,A.f2(B.rF,B.ap,r),s,!0,s,s,B.m,B.m,s,s,s,s,s,s,new A.aCM(a0),s,B.m,s,s)],m),B.k,B.Z,B.e),k=0.8*r,j=0.9*r,i=A.Q("you sure you want to cancel this booking?",B.a3,s,j,s,!1,s,s),h=1.2*r,g=A.Q("This message will be sent to the host on your behalf when cancelling the booking.",B.a3,s,j,s,!1,2,s),f=A.Q("Leave a message to explain why",B.a3,s,k,s,!1,s,s),e=0.5*r,d=A.k(s,e,s),c=0.7*r,b=A.aO(s,s,B.j,s,s,s,s,s,s,s,s,c,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),a=0.6*r
+return A.CJ(B.i,A.J(s,A.hS(s,A.ae(A.a([l,new A.al(new A.j(0,k,0,k),new A.ei(s,s,s,s,B.a_,s),s),i,new A.al(new A.j(0,h,0,h),g,s),f,d,A.ic(B.iF,B.m,0.45*r,new A.j(e,k,e,k),n.y,s,A.aO(s,s,B.a3,s,s,s,s,s,s,s,s,c,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),"Type a reason for cancelling",s,!0,!1,5,s,s,s,s,s,s,s,b,s,r),A.k(s,h,s),A.X(A.a([A.fB(0.4*r,B.ap,new A.j(p,a,p,a),"Yes, Cancel Booking",j,B.v,s,s,new A.aCN(n),B.i),A.bi(!1,s,!0,A.Q("No, Hold",B.j,s,j,B.v,!1,s,s),s,!0,s,s,B.m,B.m,s,s,s,s,s,s,new A.aCO(),s,B.m,s,s)],m),B.k,B.Z,B.e)],m),B.x,B.f,B.E),n.CW),B.h,s,s,new A.L(B.i,s,s,o,s,s,s,B.o),s,s,s,s,new A.j(p,p,p,p),s,s,35*r),B.h,s,B.ak,s,new A.dl(q,B.B),s)},
 $S:79}
 A.aCM.prototype={
 $0(){A.d5(this.a,!1).ff()},
